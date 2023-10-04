@@ -11,14 +11,14 @@ const Header = () => {
           className="w-28 h-12"
         />
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-4">
         <span>Condomínios</span>
         <span>Fórum</span>
         <span>Guia</span>
         <span>Artigos</span>
         <span>Ferramentas</span>
       </div>
-      <div className="flex gap-2 ml-48">
+      <div className="flex gap-4 ml-48">
         <span>Cotar Imóvel</span>
         <span>Planos</span>
         <span>Entrar</span>
