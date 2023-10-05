@@ -151,13 +151,13 @@ const Main = () => {
         </div>
         <div className="flex gap-2">
           <div className="font-bold text-lg">6</div>
-          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl">
+          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl p-0 overflow-hidden">
             <div className="flex gap-2">
               <img
                 src="casa.jpg"
                 alt="casa"
                 title="imagem casa"
-                className="rounded-lg h-96 w-96"
+                className="rounded-lg h-96 w-96 hover:scale-100 scale-150 transition-transform"
               />
             </div>
           </div>
