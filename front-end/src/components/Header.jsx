@@ -1,8 +1,10 @@
 import React from "react";
+import Link from "./Link";
+import OutlineButton from "./OutlineButton";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-center gap-2 h-16 bg-azul text-white md:text-black">
+    <div className="flex items-center justify-around gap-2 h-16 bg-azul text-white  px-16">
       <div>
         <img
           src="/logo.png"
@@ -11,21 +13,19 @@ const Header = () => {
           className="w-28 h-12"
         />
       </div>
-      <div className="flex gap-4">
-        <span>Condomínios</span>
+      <div className="flex gap-4 grow">
+        <Link href="/condominio">Condomínio</Link>
         <span>Fórum</span>
         <span>Guia</span>
         <span>Artigos</span>
         <span>Ferramentas</span>
       </div>
-      <div className="flex gap-4 ml-48">
+      <div className="flex gap-4">
         <span>Cotar Imóvel</span>
         <span>Planos</span>
         <span>Entrar</span>
       </div>
-      <div className="ml-6 border-2 border-white rounded-2xl p-1 pl-10 pr-10">
-        <span>Cadastre-se</span>
-      </div>
+      <OutlineButton>Cadastrar</OutlineButton>
     </div>
   );
 };
