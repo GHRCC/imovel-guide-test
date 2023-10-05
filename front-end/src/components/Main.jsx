@@ -105,23 +105,53 @@ const Main = () => {
           </div>
         </div>
       </section>
+
       <section className="w-full flex justify-around mt-6">
         <div className="flex gap-2">
           <div className="font-bold text-lg">4</div>
-          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl p-6">
-            <div className="flex gap-2"></div>
+          <div>
+            <div className="w-96 h-96 flex-col border-2 border-black rounded-xl p-0">
+              <div className="flex gap-2">
+                <img
+                  src="casa.jpg"
+                  alt="casa"
+                  title="imagem casa"
+                  className="rounded-lg h-96 w-96"
+                />
+              </div>
+            </div>
+            <div className="flex justify-center items-center w-96 h-12 border-solid border-2 border-laranja rounded-lg bg-laranja my-8 text-white">
+              <h2 className="uppercase">Abrir imagem no Modal</h2>
+            </div>
           </div>
         </div>
         <div className="flex gap-2">
           <div className="font-bold text-lg">5</div>
-          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl p-6">
-            <div className="flex gap-2"></div>
+          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl">
+            <div className="flex gap-2">
+              <img
+                src="casa.jpg"
+                alt="casa"
+                title="imagem casa"
+                className="rounded-lg h-96 w-96"
+              />
+            </div>
+            <div className="flex justify-center items-center w-96 h-12 border-solid border-2 border-laranja rounded-lg bg-laranja my-8 text-white text-xl">
+              <h2>Download</h2>
+            </div>
           </div>
         </div>
         <div className="flex gap-2">
           <div className="font-bold text-lg">6</div>
-          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl p-6">
-            <div className="flex gap-2"></div>
+          <div className="w-96 h-96 flex-col border-2 border-black rounded-xl">
+            <div className="flex gap-2">
+              <img
+                src="casa.jpg"
+                alt="casa"
+                title="imagem casa"
+                className="rounded-lg h-96 w-96"
+              />
+            </div>
           </div>
         </div>
       </section>
