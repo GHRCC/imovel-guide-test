@@ -4,7 +4,7 @@ import OutlineButton from "./OutlineButton";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-around gap-2 h-16 bg-azul text-white  px-16">
+    <div className="md:flex items-center justify-around gap-2 h-16 bg-azul text-white  px-16">
       <div>
         <img
           src="/logo.png"
@@ -13,18 +13,20 @@ const Header = () => {
           className="w-28 h-12"
         />
       </div>
-      <div className="flex gap-4 grow">
+
+      <nav className="flex gap-4 grow">
         <Link href="/condominio">Condomínio</Link>
-        <span>Fórum</span>
-        <span>Guia</span>
-        <span>Artigos</span>
-        <span>Ferramentas</span>
-      </div>
-      <div className="flex gap-4">
-        <span>Cotar Imóvel</span>
-        <span>Planos</span>
-        <span>Entrar</span>
-      </div>
+        <Link href="/forum">Fórum</Link>
+        <Link href="/guia">Guia</Link>
+        <Link href="/artigos">Artigos</Link>
+        <Link href="/ferramentas">Ferramentas</Link>
+      </nav>
+
+      <nav className="flex gap-4 sm:display-none">
+        <Link href="/cotar">Cotar Imóvel</Link>
+        <Link href="/planos">Planos</Link>
+        <Link href="/entrar">Entrar</Link>
+      </nav>
       <OutlineButton>Cadastrar</OutlineButton>
     </div>
   );
